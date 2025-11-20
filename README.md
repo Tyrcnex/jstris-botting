@@ -10,7 +10,7 @@ this is a guide on how to control the jstris website to make a bot, like freyhoe
 3. install the userscript in `jstris.user.js`.
 4. open up jstris and run the cors extension.
 
-# how to use
+## how to use
 
 now in the js console on the jstris website, you can use the `GAME_OBJECT` variable to do certain things:
 - `keyInput2` and `keyInput3` for keydown and keyup respectively, e.g. `GAME_OBJECT.keyInput2({key: "ArrowLeft",keyCode:37,timestamp:performance.now(),shiftKey:false,preventDefault:=>{},stopPropagation:=>{},stopImmediatePropagation:=>{},})`
